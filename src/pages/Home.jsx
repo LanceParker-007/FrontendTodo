@@ -108,7 +108,7 @@ const Home = () => {
       <section className="todosContainer">
         {isAuthenticated ? (
           tasks.map((task) => {
-            console.log(task);
+            // console.log(task);
             return (
               <TodoItem
                 key={task.id}
